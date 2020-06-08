@@ -11,7 +11,7 @@ def print_hello():
 
 dag = DAG(
     'hello_world',
-    description='Simple tutorial DAG',
+    description='Simple DAG',
     schedule_interval='0 12 * * *',
     start_date=datetime(2017, 3, 20),
     catchup=False,

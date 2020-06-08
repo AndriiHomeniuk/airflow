@@ -5,7 +5,7 @@ from airflow.operators import MyFirstOperator, MyFirstSensor
 
 dag = DAG(
     'my_test_dag',
-    description='Another tutorial DAG',
+    description='Another DAG',
     schedule_interval='0 12 * * *',
     start_date=datetime(2017, 3, 20),
     catchup=False,
